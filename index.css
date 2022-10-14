@@ -1,11 +1,51 @@
 #users{
     color:blue;
+    margin: 0px;
 }
 
 #selected{
     color:red;
 }
 
+.resultado{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
 .btn{
     background-color: orange;
+}
+
+body{
+    /*background-color: rgb(207, 206, 206);*/
+}
+
+.persona{
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dato{
+    color: brown;
+    font-size: 24px;
+}
+
+.subdato{
+    color: rgb(175, 173, 173);
+    font-size: 12px;
+}
+
+.caja{
+    background-color: rgb(207, 206, 206);
+    width: 400px;
+    padding:30px;
+
+}
+
+.ganador{
+    color: red;
 }
