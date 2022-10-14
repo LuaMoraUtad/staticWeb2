@@ -24,8 +24,9 @@ $(document).ready(function(){
         type: "GET",
         url: "https://jsonplaceholder.typicode.com/users",
         contentType: "application/jason",
-        success: function(response){
+        success: function(response){            
             participants = response;
+            showParticipants(participants);
         },
 
         error: function(error){
